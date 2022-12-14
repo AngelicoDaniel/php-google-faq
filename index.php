@@ -28,13 +28,13 @@ $faq = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <?php 
     foreach ($faq as $elem) {
-        echo "<h3>$elem[question]</h3>" ;
+        echo "<h2>$elem[question]</h2>" ;
         echo "<p>$elem[answer]</p>" ;
-
     };
 
     ?>
